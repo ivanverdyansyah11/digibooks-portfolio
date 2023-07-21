@@ -48,6 +48,7 @@
     {{-- END NAVBAR --}}
 
     <main>
+
         {{-- HERO SECTION --}}
         <section class="hero d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0 position-relative" id="hero">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block pe-lg-4 pe-xxl-5 pt-4">
@@ -93,6 +94,68 @@
             </div>
         </section>
         {{-- END HERO SECTION --}}
+
+        {{-- FEATURED SECTION --}}
+        <section class="featured section-gap" id="featured">
+            <div class="container">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6 mb-3 mb-lg-0">
+                        <h3 class="title">Handpicked Recommendations Just for You</h3>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Explore our handpicked featured collection, showcasing the best books
+                            across various genres. From captivating novels to insightful non-fiction</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="card-image d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/featured/featured-1.svg') }}" class="img-fluid"
+                                    alt="Featured Image" width="28" height="28">
+                            </div>
+                            <h6 style="margin: 14px 0 6px;">The Digital Revolution</h6>
+                            <p class="paragraph-small">Explore the transformative power of the digital age in this
+                                thought-provoking book by renowned author John Smith.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="card-image d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/featured/featured-2.svg') }}" class="img-fluid"
+                                    alt="Featured Image" width="28" height="28">
+                            </div>
+                            <h6 style="margin: 14px 0 6px;">The Power of Imagination</h6>
+                            <p class="paragraph-small">Immerse yourself in the enchanting voice of Academy Award-winning
+                                actress Emma Thompson as she narrates.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                        <div class="card-default">
+                            <div class="card-image d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/featured/featured-3.svg') }}" class="img-fluid"
+                                    alt="Featured Image" width="28" height="28">
+                            </div>
+                            <h6 style="margin: 14px 0 6px;">Literature's Hidden Meanings</h6>
+                            <p class="paragraph-small">Delve into the depths of literary analysis with 'Beyond the
+                                Pages.' This engaging eBook uncovers the hidden meanings.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card-default">
+                            <div class="card-image d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/featured/featured-4.svg') }}" class="img-fluid"
+                                    alt="Featured Image" width="28" height="28">
+                            </div>
+                            <h6 style="margin: 14px 0 6px;">The Adventures of Digibot</h6>
+                            <p class="paragraph-small">Introduce young readers to the joy of reading. Join Digibot and
+                                his lovable companions on exciting journeys.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END FEATURED SECTION --}}
 
     </main>
 

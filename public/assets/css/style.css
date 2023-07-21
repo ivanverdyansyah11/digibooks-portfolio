@@ -164,11 +164,11 @@ h5 {
     height: 42px;
     border-radius: 9999px;
     background-color: rgba(var(--gold-color), 0.12);
-    border: 1px solid rgba(var(--gold-color), 1);
+    border: 1px solid rgba(var(--gold-color), 0.54);
 }
 
 .button-icon:hover {
-    background-color: rgba(var(--gold-color), 0.24);
+    background-color: rgba(var(--gold-color), 0.18);
 }
 
 .user-icon,
@@ -183,6 +183,21 @@ h5 {
 
 .cart-icon {
     background-image: url('../img/icon/cart-icon.svg');
+}
+
+.card-default {
+    padding: 30px;
+    border-radius: 22px;
+    background-color: rgba(var(--gold-color), 0.06);
+    border: 1px solid rgba(var(--gold-color), 0.24);
+}
+
+.card-image {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid rgba(var(--gold-color), 0.24);
+    background-color: rgba(var(--gold-color), 0.06);
 }
 /* END COMPONENT STYLE */
 
@@ -280,7 +295,7 @@ h5 {
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 
     h2 {
@@ -297,11 +312,11 @@ h5 {
     }
 
     .title {
-        font-size: 1.25rem;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     .wrapper-width {
@@ -337,7 +352,7 @@ h5 {
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     h2 {
@@ -354,7 +369,7 @@ h5 {
     }
 
     .title {
-        font-size: 1.75rem;
+        font-size: 2.25rem;
     }
 
     h2 {
