@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
-<body id="home">
+<body id="home" style="padding-bottom: 100px">
 
     {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg py-3 navbar-dark position-relative">
@@ -50,7 +50,7 @@
     <main>
 
         {{-- HERO SECTION --}}
-        <section class="hero d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0 position-relative" id="hero">
+        <section class="hero d-flex align-items-center py-4 py-lg-0 position-relative" id="hero">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block pe-lg-4 pe-xxl-5 pt-4">
                 <img src="{{ asset('assets/img/banner/hero-banner.svg') }}" class="img-fluid w-100 h-100"
                     alt="hero Banner Image">
@@ -126,7 +126,8 @@
                                     alt="Featured Image" width="28" height="28">
                             </div>
                             <h6 style="margin: 14px 0 6px;">The Power of Imagination</h6>
-                            <p class="paragraph-small">Immerse yourself in the enchanting voice of Academy Award-winning
+                            <p class="paragraph-small">Immerse yourself in the enchanting voice of Academy
+                                Award-winning
                                 actress Emma Thompson as she narrates.</p>
                         </div>
                     </div>
@@ -156,6 +157,40 @@
             </div>
         </section>
         {{-- END FEATURED SECTION --}}
+
+        {{-- ABOUT SECTION --}}
+        <section class="about d-flex align-items-center py-4 py-lg-0 position-relative" id="about">
+            <div class="banner-image position-absolute d-none d-lg-flex pe-lg-4 pe-xxl-5 justify-content-start">
+                <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid"
+                    alt="About Banner Image">
+            </div>
+            <div class="container position-relative">
+                <div class="row align-items-center pe-xl-4">
+                    <div class="offset-lg-6 offset-xxl-5 col-lg-6 col-xxl-7 ps-xxl-4">
+                        <h3 class="title" style="margin-bottom: 26px;">Transforming the Way You Access Information
+                        </h3>
+                        <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 42px;">
+                            <p class="paragraph">Welcome to our digital library, a dynamic platform dedicated to
+                                empowering individuals through the power of digital reading. With a vast collection of
+                                e-books, audiobooks, and interactive resources, we strive to connect readers with
+                                knowledge, ideas, and endless learning opportunities.</p>
+                            <p class="paragraph">At our digital library, we believe that
+                                access to information should know no bounds. Our mission is to provide a convenient,
+                                inclusive, and enriching digital reading experience. Discover a treasure trove of books,
+                                expand your horizons, and embark on a lifelong journey of discovery.</p>
+                        </div>
+                        <div class="wrapper d-flex align-items-center gap-2">
+                            <a href="#team" class="button-default">Discover Team</a>
+                            <a href="#adventage" class="button-reverse d-flex align-items-center gap-2">
+                                Our Adventages
+                                <div class="arrow-icon"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END ABOUT SECTION --}}
 
     </main>
 

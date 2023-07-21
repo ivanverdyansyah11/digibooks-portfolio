@@ -142,7 +142,6 @@ h5 {
 }
 
 .button-reverse {
-    display: inline-block;
     width: fit-content;
     text-decoration: none;
     padding: 16px 22px;
@@ -157,6 +156,19 @@ h5 {
 .button-reverse:hover {
     background-color: rgba(var(--pink-color), 1);
     color: rgba(var(--primary-color), 1);
+}
+
+.button-reverse .arrow-icon {
+    width: 24px;
+    height: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../img/icon/arrow-light-length.svg');
+}
+
+.button-reverse:hover .arrow-icon {
+    background-image: url('../img/icon/arrow-dark-length.svg');
 }
 
 .button-icon {
@@ -199,6 +211,26 @@ h5 {
     border: 1px solid rgba(var(--gold-color), 0.24);
     background-color: rgba(var(--gold-color), 0.06);
 }
+
+.about .banner-image {
+    width: 50% !important;
+}
+
+.about,
+.testimoni {
+    height: 64vh;
+}
+
+.about img,
+.testimoni img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 0;
+    padding: 16px;
+    background-color: rgba(var(--gold-color), 0.06);
+    border: 1px solid rgba(var(--gold-color), 0.24);
+}
 /* END COMPONENT STYLE */
 
 
@@ -225,9 +257,7 @@ h5 {
 
 
 /* SECTION HERO */
-.hero,
-.about,
-.testimoni {
+.hero {
     height: 88vh;
 }
 
@@ -321,6 +351,11 @@ h5 {
 
     .wrapper-width {
         width: 40%;
+    }
+
+    .about,
+    .testimoni {
+        height: fit-content;
     }
 }
 /* END BREAKPOINT LG */
