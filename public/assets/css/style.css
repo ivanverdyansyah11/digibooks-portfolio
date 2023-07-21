@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'lora-regular';
+    src: url('../font/lora/Lora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lora-medium';
+    src: url('../font/lora/Lora-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lora-bold';
+    src: url('../font/lora/Lora-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-regular';
+    src: url('../font/urbanist/Urbanist-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url('../font/urbanist/Urbanist-Medium.ttf') format('truetype');
+}
+
+:root {
+    --primary-color: 104, 49, 69;
+    --secondary-color: 106, 51, 71;
+    --gold-color: 236, 217, 171;
+    --pink-color: 232, 170, 192;
+    --light-color: 255, 255, 255;
+
+    --lora-regular: 'lora-regular', Arial, Helvetica, sans-serif;
+    --lora-medium: 'lora-medium', Arial, Helvetica, sans-serif;
+    --lora-bold: 'lora-bold', Arial, Helvetica, sans-serif;
+    --urbanist-regular: 'urbanist-regular', Arial, Helvetica, sans-serif;
+    --urbanist-medium: 'urbanist-medium', Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--urbanist-medium);
+    color: rgba(var(--light-color), 1);
+    transition: 250ms !important;
+}
+
+body {
+    background-color: rgba(var(--primary-color), 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+/* COMPONENT STYLE */
+section.section-gap {
+    padding: 122px 0;
+    background-color: rgba(var(--secondary-color), 1);
+}
+
+.row.row-gap {
+    margin-bottom: 56px
+}
+
+.headline,
+.title {
+    line-height: auto;
+    font-size: 3.75rem;
+    color: rgba(var(--gold-color), 1);
+    font-family: var(--lora-regular);
+    line-height: 120%;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: var(--lora-bold);
+    color: rgba(var(--gold-color), 1);
+    line-height: 120%;
+}
+
+p.paragraph,
+p.paragraph-small {
+    font-size: 1rem;
+}
+
+p.paragraph-small {
+    font-size: 0.938rem;
+}
+
+h5,
+h6 {
+    line-height: 142%;
+    font-size: 1.013rem;
+    color: rgba(var(--gold-color), 1);
+    font-family: var(--lora-regular);
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+.banner-image {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+}
+
+.banner-image-reverse {
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+}
+
+.button-default {
+    display: inline-block;
+    width: fit-content;
+    text-decoration: none;
+    padding: 16px 22px;
+    background-color: rgba(var(--pink-color), 1);
+    border: 1px solid rgba(var(--pink-color), 1);
+    border-radius: 8px;
+    font-size: 0.813rem;
+    color: rgba(var(--primary-color), 1);
+    text-transform: uppercase;
+}
+
+.button-default:hover {
+    background-color: transparent;
+    color: rgba(var(--pink-color), 1);
+}
+
+.button-reverse {
+    display: inline-block;
+    width: fit-content;
+    text-decoration: none;
+    padding: 16px 22px;
+    background-color: transparent;
+    border: 1px solid rgba(var(--pink-color), 1);
+    border-radius: 8px;
+    font-size: 0.813rem;
+    color: rgba(var(--pink-color), 1);
+    text-transform: uppercase;
+}
+
+.button-reverse:hover {
+    background-color: rgba(var(--pink-color), 1);
+    color: rgba(var(--primary-color), 1);
+}
+
+.button-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 9999px;
+    background-color: rgba(var(--gold-color), 0.12);
+    border: 1px solid rgba(var(--gold-color), 1);
+}
+
+.button-icon:hover {
+    background-color: rgba(var(--gold-color), 0.24);
+}
+
+.user-icon,
+.cart-icon {
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/icon/user-icon.svg');
+}
+
+.cart-icon {
+    background-image: url('../img/icon/cart-icon.svg');
+}
+/* END COMPONENT STYLE */
+
+
+/* COMPONENT NAVBAR */
+.navbar {
+    border-bottom: 1px solid rgba(var(--gold-color), 0.24);
+    background-color: rgba(var(--secondary-color), 1);
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: rgba(var(--light-color), 1);
+}
+
+.wrapper-width {
+    width: 43%;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: rgba(var(--gold-color), 1) !important;
+}
+/* END COMPONENT NAVBAR */
+
+
+/* SECTION HERO */
+.hero,
+.about,
+.testimoni {
+    height: 88vh;
+}
+
+.hero .wrapper-paragraph {
+    padding-bottom: 42px;
+    margin-bottom: 32pc;
+    border-bottom: 1px solid rgba(var(--gold-color), 0.24);
+}
+
+.hero .caption {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.72);
+}
+/* END SECTION HERO */
+
+
+/* FOOTER */
+.footer {
+    background-color: rgba(var(--light-color), 1);
+    padding-top: 122px;
+}
+
+.footer h6 {
+    color: rgba(var(--dark-color), 1);
+}
+
+.footer .paragraph-small {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.52);
+    text-decoration: none;
+}
+
+.footer a.paragraph-small:hover {
+    color: rgba(var(--dark-color), 1);
+}
+
+.sosmed-icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(var(--light-secondary-color), 1);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    border-radius: 4px;
+}
+
+.sosmed-icon:hover {
+    background-color: rgba(var(--light-color), 1);
+}
+
+.copyright {
+    padding: 22px 0 !important;
+    border-top: 1px solid rgba(var(--dark-color), 0.12);
+}
+
+.copyright p {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 0.32);
+}
+/* END FOOTER */
+
+
+/* BREAKPOINT XL */
+@media (max-width: 1399.98px) {
+    .headline {
+        font-size: 3.25rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+/* END BREAKPOINT XL */
+
+
+/* BREAKPOINT LG */
+@media (max-width: 1199.98px) {
+    /* .headline,
+    .title {
+        font-size: 3.425rem;
+    }
+
+    .title {
+        font-size: 2.125rem;
+    } */
+
+    .wrapper-width {
+        width: 40%;
+    }
+}
+/* END BREAKPOINT LG */
+
+
+/* BREAKPOINT MD */
+@media (max-width: 991.98px) {
+    .about,
+    .testimoni {
+        height: fit-content;
+        padding: 72px 0 !important;
+    }
+
+    .hero {
+        height: fit-content;
+        padding-bottom: 72px !important;
+    }
+
+    section.section-gap {
+        padding: 72px 0;
+    }
+
+    /* .headline,
+    .title {
+        font-size: 3rem;
+    }
+
+    .title {
+        font-size: 2.25rem;
+    } */
+
+    .row.row-gap {
+        margin-bottom: 42px
+    }
+}
+/* END BREAKPOINT MD */
+
+
+/* BREAKPOINT SM */
+@media (max-width: 767.98px) {
+}
+/* END BREAKPOINT MD */
