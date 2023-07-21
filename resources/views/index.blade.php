@@ -55,8 +55,8 @@
                     alt="hero Banner Image">
             </div>
             <div class="container position-relative">
-                <div class="row align-items-center pe-lg-4">
-                    <div class="col-lg-6 col-xl-7 pe-xl-5">
+                <div class="row align-items-center pe-xl-4">
+                    <div class="col-lg-7 pe-lg-5">
                         <h1 class="headline" style="margin-bottom: 26px;">The Digital Library Experience Begins Here
                         </h1>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 42px;">
@@ -71,19 +71,19 @@
                                 broaden your horizons.</p>
                         </div>
                         <div class="row">
-                            <div class="col-3">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
                                 <h2 style="margin-bottom: 8px;">407+</h2>
                                 <p class="caption">Total Book Available</p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
                                 <h2 style="margin-bottom: 8px;">248+</h2>
                                 <p class="caption">Digital Book Online</p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-6 col-md-3">
                                 <h2 style="margin-bottom: 8px;">12+</h2>
                                 <p class="caption">Total Our Team</p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-6 col-md-3">
                                 <h2 style="margin-bottom: 8px;">145+</h2>
                                 <p class="caption">Customers Active</p>
                             </div>

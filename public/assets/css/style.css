@@ -217,7 +217,7 @@ h5 {
 }
 
 .hero .wrapper-paragraph {
-    padding-bottom: 42px;
+    padding-bottom: 38px;
     margin-bottom: 32pc;
     border-bottom: 1px solid rgba(var(--gold-color), 0.24);
 }
@@ -292,14 +292,17 @@ h5 {
 
 /* BREAKPOINT LG */
 @media (max-width: 1199.98px) {
-    /* .headline,
-    .title {
-        font-size: 3.425rem;
+    .headline {
+        font-size: 2.5rem;
     }
 
     .title {
-        font-size: 2.125rem;
-    } */
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
 
     .wrapper-width {
         width: 40%;
@@ -325,17 +328,20 @@ h5 {
         padding: 72px 0;
     }
 
-    /* .headline,
-    .title {
-        font-size: 3rem;
+    .row.row-gap {
+        margin-bottom: 42px
+    }
+
+    .headline {
+        font-size: 3.25rem;
     }
 
     .title {
-        font-size: 2.25rem;
-    } */
+        font-size: 2rem;
+    }
 
-    .row.row-gap {
-        margin-bottom: 42px
+    h2 {
+        font-size: 2.5rem;
     }
 }
 /* END BREAKPOINT MD */
@@ -343,5 +349,16 @@ h5 {
 
 /* BREAKPOINT SM */
 @media (max-width: 767.98px) {
+    .headline {
+        font-size: 3rem;
+    }
+
+    .title {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
 }
 /* END BREAKPOINT MD */
