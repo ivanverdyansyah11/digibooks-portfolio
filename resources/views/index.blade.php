@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
-<body id="home" style="padding-bottom: 100px">
+<body id="home">
 
     {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg py-3 navbar-dark position-relative">
@@ -587,9 +587,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-lg-4">
                         <div class="card-default">
-                            <img src="{{ asset('assets/img/blog/blog-1.svg') }}" class="img-fluid img-blog"
+                            <img src="{{ asset('assets/img/blog/blog-1.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Exploring the World of Mystery and Thrillers</h6>
                             <p class="paragraph-small" style="margin-bottom: 22px;">Join us on a thrilling adventure
@@ -600,7 +600,7 @@
                         </div>
 
                         <div class="card-default mt-4">
-                            <img src="{{ asset('assets/img/blog/blog-4.svg') }}" class="img-fluid img-blog"
+                            <img src="{{ asset('assets/img/blog/blog-4.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Literary Inspiration, How Books Influence Art, Music, and
                                 Film</h6>
@@ -611,9 +611,9 @@
                             <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
                         </div>
                     </div>
-                    <div class="col-md-6 mt-4 mt-md-0">
+                    <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
                         <div class="card-default">
-                            <img src="{{ asset('assets/img/blog/blog-2.svg') }}" class="img-fluid img-blog"
+                            <img src="{{ asset('assets/img/blog/blog-2.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Conversations with the Masters of Storytelling</h6>
                             <p class="paragraph-small" style="margin-bottom: 22px;">Immerse yourself in our blog's
@@ -623,7 +623,7 @@
                         </div>
 
                         <div class="card-default mt-4">
-                            <img src="{{ asset('assets/img/blog/blog-5.svg') }}" class="img-fluid img-blog"
+                            <img src="{{ asset('assets/img/blog/blog-5.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Engaging Discussions and Reading Recommendations</h6>
                             <p class="paragraph-small" style="margin-bottom: 22px;">Join our virtual book club through
@@ -634,7 +634,7 @@
                     </div>
                     <div class="col-4 d-none d-lg-inline-block">
                         <div class="card-default">
-                            <img src="{{ asset('assets/img/blog/blog-3.svg') }}" class="img-fluid img-blog"
+                            <img src="{{ asset('assets/img/blog/blog-3.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Exploring the World of Mystery and Thrillers</h6>
                             <p class="paragraph-small" style="margin-bottom: 22px;">Join us on a thrilling adventure
@@ -644,7 +644,7 @@
                         </div>
 
                         <div class="card-default mt-4">
-                            <img src="{{ asset('assets/img/blog/blog-6.svg') }}" class="img-fluid img-blog"
+                            <img src="{{ asset('assets/img/blog/blog-6.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Books that Inspire, Empower, and Transform</h6>
                             <p class="paragraph-small" style="margin-bottom: 22px;">Our blog series on reading for
@@ -658,6 +658,104 @@
         </section>
         {{-- END BLOG SECTION --}}
 
+        {{-- CTA --}}
+        <section class="cta">
+            <div class="row justify-content-center">
+                <div
+                    class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 text-md-center d-md-flex flex-md-column align-items-md-center">
+                    <h3 class="title" style="margin-bottom: 26px;">Start Your Digital Reading Journey Today!!
+                    </h3>
+                    <p class="paragraph" style="margin-bottom: 42px;">Ready to dive into the world of digital reading?
+                        Sign up now and start your digital reading journey with our vast collection of books. Whether
+                        you're seeking knowledge, entertainment, or inspiration, our digital library provides a
+                        convenient and immersive reading experience that fits your lifestyle.</p>
+                    <div class="wrapper d-flex align-items-center gap-2">
+                        <a href="#about" class="button-default">Explore Again</a>
+                        <a href="#collection" class="button-reverse d-flex align-items-center gap-2">
+                            Check Out Now
+                            <div class="arrow-icon"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END CTA --}}
+
+        {{-- FOOTER --}}
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row" style="margin-bottom: 100px">
+                    <div class="col-6 col-md-3 mb-5 mb-md-0">
+                        <a class="footer-brand d-inline-block" href="#home" style="margin-bottom: 18px;">
+                            <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" class="img-fluid w-100"
+                                alt="Logo Brand">
+                        </a>
+                        <p class="paragraph-small" style="margin-bottom: 30px;">Welcome to Chroma, the ultimate
+                            destination for digital art enthusiasts and creators.</p>
+                        <div class="wrapper-sosmed d-flex gap-2">
+                            <a href="https://id-id.facebook.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
+                                    alt="Facebook Icon" width="16">
+                            </a>
+                            <a href="https://www.whatsapp.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
+                                    alt="Whatsapp Icon" width="16">
+                            </a>
+                            <a href="https://twitter.com/?lang=id" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
+                                    alt="Twitter Icon" width="16">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="offset-lg-2 offset-xl-1 col-6 col-md-3 col-lg-2 mb-5 mb-md-0">
+                        <h6 style="margin-bottom: 20px">Quick Links</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#home" class="paragraph-small">Home</a>
+                            <a href="#about" class="paragraph-small">About Us</a>
+                            <a href="#collection" class="paragraph-small">Collection Book</a>
+                            <a href="#team" class="paragraph-small">Our Team</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 d-none d-xl-inline-block">
+                        <h6 style="margin-bottom: 20px">Our Featured</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#featured" class="paragraph-small">The Digital Revolution</a>
+                            <a href="#featured" class="paragraph-small">The Power of Imagination</a>
+                            <a href="#featured" class="paragraph-small">Literature's Hidden Meanings</a>
+                            <a href="#featured" class="paragraph-small">The Adventures of Digibot</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-2">
+                        <h6 style="margin-bottom: 20px">Our Adventage</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#adventage" class="paragraph-small">Unlimited Access</a>
+                            <a href="#adventage" class="paragraph-small">Anytime, Anywhere Reading</a>
+                            <a href="#adventage" class="paragraph-small">Interactive and Engaging</a>
+                            <a href="#adventage" class="paragraph-small">Discoverability</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h6 style="margin-bottom: 20px">Help & guide</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#" class="paragraph-small">Terms & Conditions</a>
+                            <a href="#" class="paragraph-small">Privacy Policy</a>
+                            <a href="#" class="paragraph-small">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 copyright text-center">
+                        <p>Copyright © 2023 Digibooks. All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        {{-- END FOOTER --}}
     </main>
 
 
