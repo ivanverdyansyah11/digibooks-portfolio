@@ -192,6 +192,146 @@
         </section>
         {{-- END ABOUT SECTION --}}
 
+        {{-- COLLECTION SECTION --}}
+        <section class="collection section-gap" id="collection">
+            <div class="container">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6 mb-3 mb-lg-0">
+                        <h3 class="title">Endless Possibilities, Boundless Books</h3>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Welcome to our extensive digital collection of books. Immerse yourself in
+                            a world of captivating narratives, engaging non-fiction, and thought-provoking literature.
+                        </p>
+                    </div>
+                </div>
+                <div class="row row-gap">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card-default d-flex align-items-center gap-4">
+                            <img src="{{ asset('assets/img/collection/collection-1.svg') }}"
+                                class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
+                            <div class="wrapper">
+                                <p class="author">Nisrina Putri Utami</p>
+                                <h5 style="margin: 6px 0 10px;">A.dap.ta.si</h5>
+                                <p class="paragraph-small" style="margin-bottom: 20px;">Seperti bumi yang terus
+                                    berputar, perubahan akan selalu
+                                    hadir menghampiri kita. Siap tidak siap, suka tidak suka, kita akan menghadapi
+                                    perubahan dalam tiap fase kehidupan.</p>
+                                <div class="wrapper d-flex flex-column gap-2">
+                                    <a href="#" class="text-center button-default" style="width: 100%;">Buy
+                                        Now</a>
+                                    <a href="#" class="text-center button-reverse" style="width: 100%;">Online
+                                        Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card-default d-flex align-items-center gap-4">
+                            <img src="{{ asset('assets/img/collection/collection-2.svg') }}"
+                                class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
+                            <div class="wrapper">
+                                <p class="author">Devi Ardiyanti</p>
+                                <h5 style="margin: 6px 0 10px;">Life Has Its Time</h5>
+                                <p class="paragraph-small" style="margin-bottom: 20px;">Energi yang terkuras hari ini
+                                    masih bisa terisi seusai beristirahat. Akan tetapi, pengetahuan yang habis hari ini
+                                    tanpa diisi kembali, maka ia akan kosong. Kekosongan yang terjadi ...</p>
+                                <div class="wrapper d-flex flex-column gap-2">
+                                    <a href="#" class="text-center button-default" style="width: 100%;">Buy
+                                        Now</a>
+                                    <a href="#" class="text-center button-reverse" style="width: 100%;">Online
+                                        Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card-default d-flex align-items-center gap-4">
+                            <img src="{{ asset('assets/img/collection/collection-3.svg') }}"
+                                class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
+                            <div class="wrapper">
+                                <p class="author">Jeong Moon Jeong</p>
+                                <h5 style="margin: 6px 0 10px;">Bahagia Tanpa Tapi</h5>
+                                <p class="paragraph-small" style="margin-bottom: 20px;">Tak perlu sempurna untuk
+                                    meraih kehidupan yang diidamkan Bahagia tanpa tapi... mungkinkah? Hidup dalam
+                                    masyarakat yang menetapkan standar tertentu sering menempatkan kita ...</p>
+                                <div class="wrapper d-flex flex-column gap-2">
+                                    <a href="#" class="text-center button-default" style="width: 100%;">Buy
+                                        Now</a>
+                                    <a href="#" class="text-center button-reverse" style="width: 100%;">Online
+                                        Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card-default d-flex align-items-center gap-4">
+                            <img src="{{ asset('assets/img/collection/collection-4.svg') }}"
+                                class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
+                            <div class="wrapper">
+                                <p class="author">Paul Pearsall</p>
+                                <h5 style="margin: 6px 0 10px;">Toxic Success</h5>
+                                <p class="paragraph-small" style="margin-bottom: 20px;">Di tengah dunia yang riuh,
+                                    “berisik”, serba cepat, dan penuh stimulasi berlebih, kita menjadi sering
+                                    terombang-ambing. Kita berlari ke sana-ke mari berusaha gesit untuk mendapatkan
+                                    lebih ...</p>
+                                <div class="wrapper d-flex flex-column gap-2">
+                                    <a href="#" class="text-center button-default" style="width: 100%;">Buy
+                                        Now</a>
+                                    <a href="#" class="text-center button-reverse" style="width: 100%;">Online
+                                        Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="card-default d-flex align-items-center gap-4">
+                            <img src="{{ asset('assets/img/collection/collection-5.svg') }}"
+                                class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
+                            <div class="wrapper">
+                                <p class="author">Devi Ardiyanti & Mirna Rahmasari</p>
+                                <h5 style="margin: 6px 0 10px;">Love Your Self First</h5>
+                                <p class="paragraph-small" style="margin-bottom: 20px;">Hidup dengan ekspektasi dan
+                                    tuntutan orang lain akan membuat tubuh, hati, dan pikiran kita lelah. Tidak akan
+                                    memuaskan siapapun atas semua pencapaian yang sudah kita peroleh.</p>
+                                <div class="wrapper d-flex flex-column gap-2">
+                                    <a href="#" class="text-center button-default" style="width: 100%;">Buy
+                                        Now</a>
+                                    <a href="#" class="text-center button-reverse" style="width: 100%;">Online
+                                        Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card-default d-flex align-items-center gap-4">
+                            <img src="{{ asset('assets/img/collection/collection-6.svg') }}"
+                                class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
+                            <div class="wrapper">
+                                <p class="author">Devi Ardiyanti & Yazid Attafsir</p>
+                                <h5 style="margin: 6px 0 10px;">The Potential Dream</h5>
+                                <p class="paragraph-small" style="margin-bottom: 20px;">Apakah impianmu akan tercapai
+                                    begitu saja? Manusia terlahir ke dunia dengan mimpi-mimpi hebatnya. Ada banyak
+                                    untaian doa yang disampaikan pada bayi kecil agar kelak ia ...</p>
+                                <div class="wrapper d-flex flex-column gap-2">
+                                    <a href="#" class="text-center button-default" style="width: 100%;">Buy
+                                        Now</a>
+                                    <a href="#" class="text-center button-reverse" style="width: 100%;">Online
+                                        Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="#" class="button-reverse">View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END COLLECTION SECTION --}}
+
     </main>
 
 

@@ -274,6 +274,21 @@ h5 {
 /* END SECTION HERO */
 
 
+/* SECTION COLLECTION */
+.collection .img-collection {
+    padding: 10px;
+    background-color: rgba(var(--gold-color), 0.06);
+    border: 1px solid rgba(var(--gold-color), 0.24);
+    border-radius: 16px;
+}
+
+.collection .author {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.72);
+}
+/* END SECTION COLLECTION */
+
+
 /* FOOTER */
 .footer {
     background-color: rgba(var(--light-color), 1);
