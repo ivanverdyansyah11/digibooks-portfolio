@@ -572,6 +572,92 @@
         </section>
         {{-- END TESTIMONI SECTION --}}
 
+        {{-- BLOG SECTION --}}
+        <section class="blog section-gap" id="blog">
+            <div class="container">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6 mb-3 mb-lg-0">
+                        <h3 class="title">Unlock Knowledge in Our Digital Library Blog</h3>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Delve into the literary universe with our digital library blog. Discover a
+                            curated collection of articles that uncover the stories behind the books, explore literary
+                            themes.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-default">
+                            <img src="{{ asset('assets/img/blog/blog-1.svg') }}" class="img-fluid img-blog"
+                                alt="Blog Image">
+                            <h6 style="margin: 18px 0 6px;">Exploring the World of Mystery and Thrillers</h6>
+                            <p class="paragraph-small" style="margin-bottom: 22px;">Join us on a thrilling adventure
+                                as we dive deep into the world
+                                of mystery and thrillers. Our blog explores the history, subgenres, and standout authors
+                                within this captivating genre.</p>
+                            <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
+                        </div>
+
+                        <div class="card-default mt-4">
+                            <img src="{{ asset('assets/img/blog/blog-4.svg') }}" class="img-fluid img-blog"
+                                alt="Blog Image">
+                            <h6 style="margin: 18px 0 6px;">Literary Inspiration, How Books Influence Art, Music, and
+                                Film</h6>
+                            <p class="paragraph-small" style="margin-bottom: 22px;">Immerse yourself in the
+                                intersection of literature and other art forms in our blog series on literary
+                                inspiration. Discover how books have influenced and shaped art, music, and film
+                                throughout history.</p>
+                            <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-4 mt-md-0">
+                        <div class="card-default">
+                            <img src="{{ asset('assets/img/blog/blog-2.svg') }}" class="img-fluid img-blog"
+                                alt="Blog Image">
+                            <h6 style="margin: 18px 0 6px;">Conversations with the Masters of Storytelling</h6>
+                            <p class="paragraph-small" style="margin-bottom: 22px;">Immerse yourself in our blog's
+                                Author Spotlight series, where we engage in insightful conversations with the masters of
+                                storytelling. Delve into the minds of renowned authors.</p>
+                            <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
+                        </div>
+
+                        <div class="card-default mt-4">
+                            <img src="{{ asset('assets/img/blog/blog-5.svg') }}" class="img-fluid img-blog"
+                                alt="Blog Image">
+                            <h6 style="margin: 18px 0 6px;">Engaging Discussions and Reading Recommendations</h6>
+                            <p class="paragraph-small" style="margin-bottom: 22px;">Join our virtual book club through
+                                our blog's Book Club Corner series. Engage in thought-provoking discussions about
+                                popular book club picks, and delve into character analysis.</p>
+                            <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-4 d-none d-lg-inline-block">
+                        <div class="card-default">
+                            <img src="{{ asset('assets/img/blog/blog-3.svg') }}" class="img-fluid img-blog"
+                                alt="Blog Image">
+                            <h6 style="margin: 18px 0 6px;">Exploring the World of Mystery and Thrillers</h6>
+                            <p class="paragraph-small" style="margin-bottom: 22px;">Join us on a thrilling adventure
+                                as we dive deep into the world of mystery and thrillers. Our blog explores the history,
+                                subgenres, and standout authors within this captivating genre.</p>
+                            <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
+                        </div>
+
+                        <div class="card-default mt-4">
+                            <img src="{{ asset('assets/img/blog/blog-6.svg') }}" class="img-fluid img-blog"
+                                alt="Blog Image">
+                            <h6 style="margin: 18px 0 6px;">Books that Inspire, Empower, and Transform</h6>
+                            <p class="paragraph-small" style="margin-bottom: 22px;">Our blog series on reading for
+                                personal growth explores the transformative power of books. Discover self-help and
+                                motivational titles, and memoirs that inspire resilience.</p>
+                            <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END BLOG SECTION --}}
+
     </main>
 
 

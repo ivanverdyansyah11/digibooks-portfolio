@@ -249,7 +249,8 @@ h5 {
 }
 
 .img-collection,
-.img-team {
+.img-team,
+.img-blog {
     padding: 10px;
     background-color: rgba(var(--gold-color), 0.06);
     border: 1px solid rgba(var(--gold-color), 0.24);
