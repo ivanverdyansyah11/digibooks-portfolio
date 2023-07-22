@@ -231,7 +231,7 @@ h5 {
 
 .about img,
 .adventage img,
-.testimoni img {
+.testimoni .testimoni-banner {
     border-top-left-radius: 0;
     border-top-right-radius: 28px;
     border-bottom-right-radius: 28px;
@@ -324,6 +324,52 @@ h5 {
     background-image: url('../img/icon/checklist-icon.svg');
 }
 /* END SECTION ADVENTAGE */
+
+
+/* SECTION TESTIMONI */
+.img-testimoni {
+    padding: 6px !important;
+    background-color: rgba(var(--gold-color), 0.06);
+    border: 1px solid rgba(var(--gold-color), 0.24);
+    border-radius: 10px !important;
+}
+
+.testimoni .wrapper-button {
+    top: 0 !important;
+    right: 0 !important;
+    display: flex !important;
+    gap: 8px !important;
+}
+
+.testimoni .button-swiper,
+.testimoni .button-swiper-reverse {
+    width: 36px;
+    height: 36px;
+    background-color: rgba(var(--pink-color), 1);
+    border-radius: 8px;
+}
+
+.testimoni .button-swiper-reverse {
+    background-color: rgba(var(--primary-color), 1);
+    border: 1px solid rgba(var(--pink-color), 1);
+}
+
+.testimoni .swiper-button-next,
+.testimoni .swiper-button-prev {
+    position: relative !important;
+    margin-top: 0 !important;
+}
+
+.testimoni .swiper-button-prev {
+    left: 0 !important;
+    margin-right: 10px;
+}
+
+.testimoni .swiper-button-next::after,
+.testimoni .swiper-button-prev::after {
+    display: none;
+}
+/* END SECTION TESTIMONI */
 
 
 /* FOOTER */

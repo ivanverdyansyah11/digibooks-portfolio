@@ -490,6 +490,88 @@
         </section>
         {{-- END TEAM SECTION --}}
 
+        {{-- TESTIMONI SECTION --}}
+        <section class="testimoni d-flex align-items-center py-4 py-lg-0 position-relative" id="testimoni">
+            <div class="banner-image position-absolute d-none d-lg-flex pe-lg-4 pe-xxl-5 justify-content-start">
+                <img src="{{ asset('assets/img/banner/testimonial-banner.svg') }}" class="testimoni-banner img-fluid"
+                    alt="Testimoni Banner Image">
+            </div>
+            <div class="container position-relative">
+                <div class="row align-items-center pe-xl-4">
+                    <div class="offset-lg-6 offset-xxl-5 col-lg-6 col-xxl-7 ps-xxl-4">
+                        <h3 class="title" style="margin-bottom: 26px;">Hear What Our Readers Have to Say
+                        </h3>
+                        <p class="paragraph" style="margin-bottom: 42px;">Don't just take our word for it. Read what
+                            our readers have to say
+                            about their experience with our digital library. From the convenience of accessing their
+                            favorite books to the joy of discovering new authors, our testimonials highlight the
+                            positive impact our digital library has made on the reading lives of our users.</p>
+                        <div class="wrapper position-relative">
+                            <div class="swiper mySwiper position-relative">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-testimoni">
+                                            <div class="wrapper-profile d-flex gap-3 align-items-center"
+                                                style="margin-bottom: 14px;">
+                                                <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                    class="img-fluid img-testimoni" alt="Testimoni Profile Image">
+                                                <div class="wrapper">
+                                                    <h6>Sarah Collins</h6>
+                                                    <p class="paragraph-small" style="font-size: 0.875rem;">Marketing
+                                                        Manager</p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-blur">"I have been a member of this digital library for
+                                                over a year
+                                                now, and it has truly transformed my reading experience. As a busy
+                                                marketing executive,
+                                                finding time to visit physical libraries became a challenge. But with
+                                                this digital
+                                                library, I can access a vast collection of books anytime, anywhere.”</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-testimoni">
+                                            <div class="wrapper-profile d-flex gap-3 align-items-center"
+                                                style="margin-bottom: 14px;">
+                                                <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                    class="img-fluid img-testimoni" alt="Testimoni Profile Image">
+                                                <div class="wrapper">
+                                                    <h6>Sarah Collins</h6>
+                                                    <p class="paragraph-small" style="font-size: 0.875rem;">Marketing
+                                                        Manager</p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-blur">"I have been a member of this digital library for
+                                                over a year
+                                                now, and it has truly transformed my reading experience. As a busy
+                                                marketing executive,
+                                                finding time to visit physical libraries became a challenge. But with
+                                                this digital
+                                                library, I can access a vast collection of books anytime, anywhere.”</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-button position-absolute d-flex">
+                                <div
+                                    class="button-swiper-reverse swiper-button-next d-flex justify-content-center align-items-center order-2">
+                                    <img src="{{ asset('assets/img/icon/arrow-light.svg') }}" class="img-fluid"
+                                        alt="Arrow Icon">
+                                </div>
+                                <div
+                                    class="button-swiper swiper-button-prev d-flex justify-content-center align-items-center order-1">
+                                    <img src="{{ asset('assets/img/icon/arrow-dark.svg') }}" class="img-fluid"
+                                        alt="Arrow Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END TESTIMONI SECTION --}}
+
     </main>
 
 
@@ -502,15 +584,9 @@
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 20,
-            breakpoints: {
-                640: {
-                    slidesPerView: 2,
-                    spaceBetween: 20
-                }
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
+            navigation: {
+                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next",
             },
         });
     </script>
