@@ -97,6 +97,11 @@ p.paragraph-small {
     font-size: 0.938rem;
 }
 
+p.paragraph-blur {
+    font-size: 0.938rem;
+    color: rgba(var(--light-color), 0.72);
+}
+
 h5,
 h6 {
     line-height: 142%;
@@ -242,6 +247,14 @@ h5 {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 28px;
 }
+
+.img-collection,
+.img-team {
+    padding: 10px;
+    background-color: rgba(var(--gold-color), 0.06);
+    border: 1px solid rgba(var(--gold-color), 0.24);
+    border-radius: 16px;
+}
 /* END COMPONENT STYLE */
 
 
@@ -286,13 +299,6 @@ h5 {
 
 
 /* SECTION COLLECTION */
-.collection .img-collection {
-    padding: 10px;
-    background-color: rgba(var(--gold-color), 0.06);
-    border: 1px solid rgba(var(--gold-color), 0.24);
-    border-radius: 16px;
-}
-
 .collection .author {
     font-size: 0.875rem;
     color: rgba(var(--light-color), 0.72);

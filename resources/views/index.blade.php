@@ -398,6 +398,98 @@
         </section>
         {{-- END ADVENTAGE SECTION --}}
 
+        {{-- TEAM SECTION --}}
+        <section class="team section-gap" id="team">
+            <div class="container">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6 mb-3 mb-lg-0">
+                        <h3 class="title">Meet Our Team of Digital Book Enthusiasts</h3>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Our team is composed of digital book enthusiasts who are passionate about
+                            literature and technology. We are dedicated to creating an exceptional digital reading
+                            experience for you.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card-default">
+                            <div class="row align-items-end">
+                                <div class="col-md-8 order-2 order-lg-1">
+                                    <h6>John Thompson</h6>
+                                    <p class="paragraph-small" style="margin: 2px 0 12px;">Chief Librarian and
+                                        Technology Strategist</p>
+                                    <p class="paragraph-blur">With a background in library sciences and a passion for
+                                        technology, John leads our team with his expertise in curating digital
+                                        collections and implementing innovative solutions.</p>
+                                </div>
+                                <div class="col-4 order-1 order-lg-2 d-none d-md-inline-block">
+                                    <img src="{{ asset('assets/img/team/team-1.svg') }}" class="img-fluid img-team"
+                                        alt="Team Profile Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card-default">
+                            <div class="row align-items-end">
+                                <div class="col-md-8 order-2 order-lg-1">
+                                    <h6>Sarah Adams</h6>
+                                    <p class="paragraph-small" style="margin: 2px 0 12px;">Content Curator and
+                                        Bookworm Extraordinaire</p>
+                                    <p class="paragraph-blur">As a voracious reader and book enthusiast, Sarah brings
+                                        her deep love for literature to our team. With her keen eye for quality and
+                                        diverse reading tastes, she carefully selects.</p>
+                                </div>
+                                <div class="col-4 order-1 order-lg-2 d-none d-md-inline-block">
+                                    <img src="{{ asset('assets/img/team/team-2.svg') }}" class="img-fluid img-team"
+                                        alt="Team Profile Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="row align-items-end">
+                                <div class="col-md-8 order-2 order-lg-1">
+                                    <h6>Mark Anderson</h6>
+                                    <p class="paragraph-small" style="margin: 2px 0 12px;">User Experience Designer
+                                    </p>
+                                    <p class="paragraph-blur">Mark is a skilled UX designer with a passion for creating
+                                        intuitive and visually appealing interfaces. He works closely with our team to
+                                        design and optimize the user experience of our digital library.</p>
+                                </div>
+                                <div class="col-4 order-1 order-lg-2 d-none d-md-inline-block">
+                                    <img src="{{ asset('assets/img/team/team-3.svg') }}" class="img-fluid img-team"
+                                        alt="Team Profile Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card-default">
+                            <div class="row align-items-end">
+                                <div class="col-md-8 order-2 order-lg-1">
+                                    <h6>Emma Ramirez</h6>
+                                    <p class="paragraph-small" style="margin: 2px 0 12px;">Customer Support Specialist
+                                    </p>
+                                    <p class="paragraph-blur">Emma is the friendly face behind our customer support
+                                        team. With her excellent communication skills and dedication to customer
+                                        satisfaction, she ensures that our users have a smooth.</p>
+                                </div>
+                                <div class="col-4 order-1 order-lg-2 d-none d-md-inline-block">
+                                    <img src="{{ asset('assets/img/team/team-4.svg') }}" class="img-fluid img-team"
+                                        alt="Team Profile Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END TEAM SECTION --}}
+
     </main>
 
 
