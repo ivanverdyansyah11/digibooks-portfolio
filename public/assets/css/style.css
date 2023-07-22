@@ -212,16 +212,20 @@ h5 {
     background-color: rgba(var(--gold-color), 0.06);
 }
 
-.about .banner-image {
+.about .banner-image,
+.adventage .banner-image,
+.testimoni .banner-image {
     width: 50% !important;
 }
 
 .about,
+.adventage,
 .testimoni {
     height: 64vh;
 }
 
 .about img,
+.adventage img,
 .testimoni img {
     border-top-left-radius: 0;
     border-top-right-radius: 28px;
@@ -230,6 +234,13 @@ h5 {
     padding: 16px;
     background-color: rgba(var(--gold-color), 0.06);
     border: 1px solid rgba(var(--gold-color), 0.24);
+}
+
+.adventage img {
+    border-top-left-radius: 28px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 28px;
 }
 /* END COMPONENT STYLE */
 
@@ -287,6 +298,26 @@ h5 {
     color: rgba(var(--light-color), 0.72);
 }
 /* END SECTION COLLECTION */
+
+
+/* SECTION ADVENTAGE */
+.adventage .wrapper-icon {
+    padding: 10px;
+    height: fit-content;
+    border-radius: 6px;
+    background-color: rgba(var(--gold-color), 0.06);
+    border: 1px solid rgba(var(--gold-color), 0.24);
+}
+
+.adventage .wrapper-icon .checklist-icon {
+    width: 10px;
+    height: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/icon/checklist-icon.svg');
+}
+/* END SECTION ADVENTAGE */
 
 
 /* FOOTER */
@@ -368,10 +399,11 @@ h5 {
         width: 40%;
     }
 
-    .about,
+    /* .about,
+    .adventage,
     .testimoni {
         height: fit-content;
-    }
+    } */
 }
 /* END BREAKPOINT LG */
 
@@ -379,6 +411,7 @@ h5 {
 /* BREAKPOINT MD */
 @media (max-width: 991.98px) {
     .about,
+    .adventage,
     .testimoni {
         height: fit-content;
         padding: 72px 0 !important;

@@ -174,7 +174,7 @@
                                 empowering individuals through the power of digital reading. With a vast collection of
                                 e-books, audiobooks, and interactive resources, we strive to connect readers with
                                 knowledge, ideas, and endless learning opportunities.</p>
-                            <p class="paragraph">At our digital library, we believe that
+                            <p class="paragraph d-lg-none d-xl-inline-block">At our digital library, we believe that
                                 access to information should know no bounds. Our mission is to provide a convenient,
                                 inclusive, and enriching digital reading experience. Discover a treasure trove of books,
                                 expand your horizons, and embark on a lifelong journey of discovery.</p>
@@ -331,6 +331,72 @@
             </div>
         </section>
         {{-- END COLLECTION SECTION --}}
+
+        {{-- ADVENTAGE SECTION --}}
+        <section class="adventage d-flex align-items-center py-4 py-lg-0 position-relative" id="adventage">
+            <div
+                class="banner-image-reverse position-absolute d-none d-lg-flex ps-lg-4 ps-xxl-5 justify-content-start">
+                <img src="{{ asset('assets/img/banner/adventage-banner.svg') }}" class="img-fluid"
+                    alt="Adventage Banner Image">
+            </div>
+            <div class="container position-relative">
+                <div class="row align-items-center pe-xl-4">
+                    <div class="col-lg-6 col-xxl-7 pe-xxl-4">
+                        <h3 class="title" style="margin-bottom: 26px;">Unlock the Advantages of Digital Reading
+                        </h3>
+                        <p class="paragraph" style="margin-bottom: 42px;">Our digital library offers a host of
+                            advantages that enhance your
+                            reading experience. Access a vast collection of books anytime, anywhere, and enjoy
+                            features like adjustable font sizes, personalized bookmarks, and interactive
+                            annotations.</p>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4">
+                                <div class="wrapper-icon">
+                                    <div class="checklist-icon"></div>
+                                </div>
+                                <div class="wrapper">
+                                    <h6 style="margin-bottom: 6px;">Unlimited Access</h6>
+                                    <p class="paragraph-small">Enjoy the advantage of unlimited access to a vast
+                                        collection of digital books, spanning various genres</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 d-lg-none d-xl-flex">
+                                <div class="wrapper-icon">
+                                    <div class="checklist-icon"></div>
+                                </div>
+                                <div class="wrapper">
+                                    <h6 style="margin-bottom: 6px;">Anytime, Anywhere Reading</h6>
+                                    <p class="paragraph-small">Experience the freedom of reading anytime and anywhere
+                                        with our digital library</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 mb-md-0 d-lg-none d-xxl-flex">
+                                <div class="wrapper-icon">
+                                    <div class="checklist-icon"></div>
+                                </div>
+                                <div class="wrapper">
+                                    <h6 style="margin-bottom: 6px;">Interactive and Engaging</h6>
+                                    <p class="paragraph-small">Immerse yourself in an interactive and engaging reading
+                                        experience in our digital library</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 d-lg-none d-xxl-flex">
+                                <div class="wrapper-icon">
+                                    <div class="checklist-icon"></div>
+                                </div>
+                                <div class="wrapper">
+                                    <h6 style="margin-bottom: 6px;">Discoverability</h6>
+                                    <p class="paragraph-small">Our digital library, discover new books and expand your
+                                        literary horizons effortlessly</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END ADVENTAGE SECTION --}}
 
     </main>
 
