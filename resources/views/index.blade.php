@@ -404,10 +404,10 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-3 mb-lg-0">
-                        <h3 class="title">Meet Our Team of Digital Book Enthusiasts</h3>
+                        <h3 class="title" data-aos="fade-right" data-aos-duration="1600">Meet Our Team of Digital Book Enthusiasts</h3>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Our team is composed of digital book enthusiasts who are passionate about
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1600">Our team is composed of digital book enthusiasts who are passionate about
                             literature and technology. We are dedicated to creating an exceptional digital reading
                             experience for you.
                         </p>
@@ -415,7 +415,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in" data-aos-duration="500">
                             <div class="row align-items-end">
                                 <div class="col-md-8 order-2 order-lg-1">
                                     <h6>John Thompson</h6>
@@ -433,7 +433,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in" data-aos-duration="500">
                             <div class="row align-items-end">
                                 <div class="col-md-8 order-2 order-lg-1">
                                     <h6>Sarah Adams</h6>
@@ -451,7 +451,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4 mb-4 mb-lg-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in" data-aos-duration="500">
                             <div class="row align-items-end">
                                 <div class="col-md-8 order-2 order-lg-1">
                                     <h6>Mark Anderson</h6>
@@ -469,7 +469,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in" data-aos-duration="500">
                             <div class="row align-items-end">
                                 <div class="col-md-8 order-2 order-lg-1">
                                     <h6>Emma Ramirez</h6>
