@@ -338,7 +338,7 @@
             <div
                 class="banner-image-reverse position-absolute d-none d-lg-flex ps-lg-4 ps-xxl-5 justify-content-start">
                 <img src="{{ asset('assets/img/banner/adventage-banner.svg') }}" class="img-fluid"
-                    alt="Adventage Banner Image" data-aos="zoom-out" data-aos-duration="1600">
+                    alt="Adventage Banner Image" data-aos="fade" data-aos-duration="1600">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
