@@ -495,19 +495,19 @@
         <section class="testimoni d-flex align-items-center py-4 py-lg-0 position-relative" id="testimoni">
             <div class="banner-image position-absolute d-none d-lg-flex pe-lg-4 pe-xxl-5 justify-content-start">
                 <img src="{{ asset('assets/img/banner/testimonial-banner.svg') }}" class="testimoni-banner img-fluid"
-                    alt="Testimoni Banner Image">
+                    alt="Testimoni Banner Image" data-aos="zoom-out" data-aos-duration="1600">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
                     <div class="offset-lg-6 offset-xxl-5 col-lg-6 col-xxl-7 ps-xxl-4">
-                        <h3 class="title" style="margin-bottom: 26px;">Hear What Our Readers Have to Say
+                        <h3 class="title" style="margin-bottom: 26px;" data-aos="fade-left" data-aos-duration="1600">Hear What Our Readers Have to Say
                         </h3>
-                        <p class="paragraph" style="margin-bottom: 42px;">Don't just take our word for it. Read what
+                        <p class="paragraph" style="margin-bottom: 42px;" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Don't just take our word for it. Read what
                             our readers have to say
                             about their experience with our digital library. From the convenience of accessing their
                             favorite books to the joy of discovering new authors, our testimonials highlight the
                             positive impact our digital library has made on the reading lives of our users.</p>
-                        <div class="wrapper position-relative">
+                        <div class="wrapper position-relative" data-aos="fade-left" data-aos-duration="1000">
                             <div class="swiper mySwiper position-relative">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
