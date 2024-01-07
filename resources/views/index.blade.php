@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    {{-- END STYLE --}}
 </head>
 
 <body id="home">
-
     {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg py-3 navbar-dark position-relative">
         <div class="container d-flex justify-content-between">
@@ -100,15 +101,15 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-3 mb-lg-0">
-                        <h3 class="title">Handpicked Recommendations Just for You</h3>
+                        <h3 class="title" data-aos="fade-right" data-aos-duration="1600">Handpicked Recommendations Just for You</h3>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Explore our handpicked featured collection, showcasing the best books
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1600">Explore our handpicked featured collection, showcasing the best books
                             across various genres. From captivating novels to insightful non-fiction</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-left" data-aos-duration="1600">
                         <div class="card-default">
                             <div class="card-image d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/featured/featured-1.svg') }}" class="img-fluid"
@@ -119,7 +120,7 @@
                                 thought-provoking book by renowned author John Smith.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="600">
                         <div class="card-default">
                             <div class="card-image d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/featured/featured-2.svg') }}" class="img-fluid"
@@ -131,7 +132,7 @@
                                 actress Emma Thompson as she narrates.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="1200">
                         <div class="card-default">
                             <div class="card-image d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/featured/featured-3.svg') }}" class="img-fluid"
@@ -142,7 +143,7 @@
                                 Pages.' This engaging eBook uncovers the hidden meanings.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="1800">
                         <div class="card-default">
                             <div class="card-image d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/featured/featured-4.svg') }}" class="img-fluid"
@@ -760,9 +761,14 @@
 
 
     {{-- SCRIPT JS --}}
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/js/script.js') }}"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
     <script>
         var swiper = new Swiper(".mySwiper", {

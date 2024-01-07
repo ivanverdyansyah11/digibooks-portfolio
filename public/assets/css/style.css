@@ -40,7 +40,7 @@
 * {
     font-family: var(--urbanist-medium);
     color: rgba(var(--light-color), 1);
-    transition: 250ms !important;
+    transition: 250ms;
 }
 
 body {
