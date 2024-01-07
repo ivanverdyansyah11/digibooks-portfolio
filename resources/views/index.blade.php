@@ -163,7 +163,7 @@
         <section class="about d-flex align-items-center py-4 py-lg-0 position-relative" id="about">
             <div class="banner-image position-absolute d-none d-lg-flex pe-lg-4 pe-xxl-5 justify-content-start">
                 <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid"
-                    alt="About Banner Image" data-aos="zoom-out" data-aos-duration="1600">
+                    alt="About Banner Image" data-aos="fade" data-aos-duration="1600">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
