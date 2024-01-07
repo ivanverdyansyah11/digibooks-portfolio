@@ -338,20 +338,20 @@
             <div
                 class="banner-image-reverse position-absolute d-none d-lg-flex ps-lg-4 ps-xxl-5 justify-content-start">
                 <img src="{{ asset('assets/img/banner/adventage-banner.svg') }}" class="img-fluid"
-                    alt="Adventage Banner Image">
+                    alt="Adventage Banner Image" data-aos="zoom-out" data-aos-duration="1600">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
                     <div class="col-lg-6 col-xxl-7 pe-xxl-4">
-                        <h3 class="title" style="margin-bottom: 26px;">Unlock the Advantages of Digital Reading
+                        <h3 class="title" style="margin-bottom: 26px;" data-aos="fade-right" data-aos-duration="1600">Unlock the Advantages of Digital Reading
                         </h3>
-                        <p class="paragraph" style="margin-bottom: 42px;">Our digital library offers a host of
+                        <p class="paragraph" style="margin-bottom: 42px;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Our digital library offers a host of
                             advantages that enhance your
                             reading experience. Access a vast collection of books anytime, anywhere, and enjoy
                             features like adjustable font sizes, personalized bookmarks, and interactive
                             annotations.</p>
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4">
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="wrapper-icon">
                                     <div class="checklist-icon"></div>
                                 </div>
@@ -361,7 +361,7 @@
                                         collection of digital books, spanning various genres</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 d-lg-none d-xl-flex">
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 d-lg-none d-xl-flex" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                                 <div class="wrapper-icon">
                                     <div class="checklist-icon"></div>
                                 </div>
@@ -372,7 +372,7 @@
                                 </div>
                             </div>
                             <div
-                                class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 mb-md-0 d-lg-none d-xxl-flex">
+                                class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 mb-md-0 d-lg-none d-xxl-flex" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="wrapper-icon">
                                     <div class="checklist-icon"></div>
                                 </div>
@@ -382,7 +382,7 @@
                                         experience in our digital library</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 d-lg-none d-xxl-flex">
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 d-lg-none d-xxl-flex" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                                 <div class="wrapper-icon">
                                     <div class="checklist-icon"></div>
                                 </div>
