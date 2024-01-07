@@ -54,25 +54,25 @@
         <section class="hero d-flex align-items-center py-4 py-lg-0 position-relative" id="hero">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block pe-lg-4 pe-xxl-5 pt-4">
                 <img src="{{ asset('assets/img/banner/hero-banner.svg') }}" class="img-fluid w-100 h-100"
-                    alt="hero Banner Image">
+                    alt="hero Banner Image" data-aos="zoom-out" data-aos-duration="1600">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
                     <div class="col-lg-7 pe-lg-5">
-                        <h1 class="headline" style="margin-bottom: 26px;">The Digital Library Experience Begins Here
+                        <h1 class="headline" style="margin-bottom: 26px;" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="1000">The Digital Library Experience Begins Here
                         </h1>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 42px;">
-                            <p class="paragraph">Welcome to our digital library, where the world of knowledge awaits
+                            <p class="paragraph" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="2000">Welcome to our digital library, where the world of knowledge awaits
                                 you. Explore a vast collection of digital books, immerse yourself in captivating
                                 stories, and embark on a journey of learning and discovery. Step into a realm where
                                 books come to life. Our digital library offers a seamless reading experience with a
                                 diverse range of genres and subjects.</p>
-                            <p class="paragraph d-none d-md-inline-block">Discover a new way of accessing books with our
+                            <p class="paragraph d-none d-md-inline-block" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="2600">Discover a new way of accessing books with our
                                 digital library. Enjoy the convenience of instant access to an extensive collection of
                                 titles, from classic literature to contemporary bestsellers. Expand your mind and
                                 broaden your horizons.</p>
                         </div>
-                        <div class="row">
+                        <div class="row" data-aos="zoom-out" data-aos-duration="1600">
                             <div class="col-6 col-md-3 mb-4 mb-md-0">
                                 <h2 style="margin-bottom: 8px;">407+</h2>
                                 <p class="caption">Total Book Available</p>
