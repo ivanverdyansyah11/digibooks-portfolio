@@ -578,9 +578,9 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-3 mb-lg-0">
-                        <h3 class="title">Unlock Knowledge in Our Digital Library Blog</h3>
+                        <h3 class="title" data-aos="fade-right" data-aos-duration="1600">Unlock Knowledge in Our Digital Library Blog</h3>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1600">
                         <p class="paragraph">Delve into the literary universe with our digital library blog. Discover a
                             curated collection of articles that uncover the stories behind the books, explore literary
                             themes.
@@ -589,7 +589,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-1.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Exploring the World of Mystery and Thrillers</h6>
@@ -600,7 +600,7 @@
                             <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
                         </div>
 
-                        <div class="card-default mt-4">
+                        <div class="card-default mt-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-4.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Literary Inspiration, How Books Influence Art, Music, and
@@ -613,7 +613,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-2.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Conversations with the Masters of Storytelling</h6>
@@ -623,7 +623,7 @@
                             <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
                         </div>
 
-                        <div class="card-default mt-4">
+                        <div class="card-default mt-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-5.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Engaging Discussions and Reading Recommendations</h6>
@@ -634,7 +634,7 @@
                         </div>
                     </div>
                     <div class="col-4 d-none d-lg-inline-block">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-3.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Exploring the World of Mystery and Thrillers</h6>
@@ -644,7 +644,7 @@
                             <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
                         </div>
 
-                        <div class="card-default mt-4">
+                        <div class="card-default mt-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-6.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Books that Inspire, Empower, and Transform</h6>
