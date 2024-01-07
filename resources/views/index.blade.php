@@ -495,7 +495,7 @@
         <section class="testimoni d-flex align-items-center py-4 py-lg-0 position-relative" id="testimoni">
             <div class="banner-image position-absolute d-none d-lg-flex pe-lg-4 pe-xxl-5 justify-content-start">
                 <img src="{{ asset('assets/img/banner/testimonial-banner.svg') }}" class="testimoni-banner img-fluid"
-                    alt="Testimoni Banner Image" data-aos="zoom-out" data-aos-duration="1600">
+                    alt="Testimoni Banner Image" data-aos="fade" data-aos-duration="1600">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
