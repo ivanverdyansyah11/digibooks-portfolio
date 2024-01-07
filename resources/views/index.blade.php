@@ -198,17 +198,17 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-3 mb-lg-0">
-                        <h3 class="title">Endless Possibilities, Boundless Books</h3>
+                        <h3 class="title" data-aos="fade-right" data-aos-duration="1600">Endless Possibilities, Boundless Books</h3>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Welcome to our extensive digital collection of books. Immerse yourself in
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1600">Welcome to our extensive digital collection of books. Immerse yourself in
                             a world of captivating narratives, engaging non-fiction, and thought-provoking literature.
                         </p>
                     </div>
                 </div>
                 <div class="row row-gap">
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default d-flex align-items-center gap-4">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-1.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -228,7 +228,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default d-flex align-items-center gap-4">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-2.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -247,7 +247,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default d-flex align-items-center gap-4">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-3.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -266,7 +266,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default d-flex align-items-center gap-4">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-4.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -286,7 +286,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4 mb-lg-0">
-                        <div class="card-default d-flex align-items-center gap-4">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-5.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -305,7 +305,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="card-default d-flex align-items-center gap-4">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-6.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -326,7 +326,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
-                        <a href="#" class="button-reverse">View More</a>
+                        <a href="#" class="button-reverse" data-aos="zoom-in" data-aos-duration="500">View More</a>
                     </div>
                 </div>
             </div>
