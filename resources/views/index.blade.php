@@ -54,7 +54,7 @@
         <section class="hero d-flex align-items-center py-4 py-lg-0 position-relative" id="hero">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block pe-lg-4 pe-xxl-5 pt-4">
                 <img src="{{ asset('assets/img/banner/hero-banner.svg') }}" class="img-fluid w-100 h-100"
-                    alt="hero Banner Image" data-aos="zoom-out" data-aos-duration="1600">
+                    alt="hero Banner Image" data-aos="fade" data-aos-duration="1600">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
