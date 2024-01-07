@@ -660,7 +660,7 @@
         {{-- END BLOG SECTION --}}
 
         {{-- CTA --}}
-        <section class="cta">
+        <section class="cta" data-aos="fade-up" data-aos-duration="2000">
             <div class="row justify-content-center">
                 <div
                     class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 text-md-center d-md-flex flex-md-column align-items-md-center">
