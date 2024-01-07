@@ -67,7 +67,7 @@
                                 stories, and embark on a journey of learning and discovery. Step into a realm where
                                 books come to life. Our digital library offers a seamless reading experience with a
                                 diverse range of genres and subjects.</p>
-                            <p class="paragraph d-none d-md-inline-block" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="2600">Discover a new way of accessing books with our
+                            <p class="paragraph d-none d-md-inline-block" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="2200">Discover a new way of accessing books with our
                                 digital library. Enjoy the convenience of instant access to an extensive collection of
                                 titles, from classic literature to contemporary bestsellers. Expand your mind and
                                 broaden your horizons.</p>
@@ -163,24 +163,24 @@
         <section class="about d-flex align-items-center py-4 py-lg-0 position-relative" id="about">
             <div class="banner-image position-absolute d-none d-lg-flex pe-lg-4 pe-xxl-5 justify-content-start">
                 <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid"
-                    alt="About Banner Image">
+                    alt="About Banner Image" data-aos="zoom-out" data-aos-duration="1600">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
                     <div class="offset-lg-6 offset-xxl-5 col-lg-6 col-xxl-7 ps-xxl-4">
-                        <h3 class="title" style="margin-bottom: 26px;">Transforming the Way You Access Information
+                        <h3 class="title" style="margin-bottom: 26px;" data-aos="fade-left" data-aos-duration="1600">Transforming the Way You Access Information
                         </h3>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 42px;">
-                            <p class="paragraph">Welcome to our digital library, a dynamic platform dedicated to
+                            <p class="paragraph" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Welcome to our digital library, a dynamic platform dedicated to
                                 empowering individuals through the power of digital reading. With a vast collection of
                                 e-books, audiobooks, and interactive resources, we strive to connect readers with
                                 knowledge, ideas, and endless learning opportunities.</p>
-                            <p class="paragraph d-lg-none d-xl-inline-block">At our digital library, we believe that
+                            <p class="paragraph d-lg-none d-xl-inline-block" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">At our digital library, we believe that
                                 access to information should know no bounds. Our mission is to provide a convenient,
                                 inclusive, and enriching digital reading experience. Discover a treasure trove of books,
                                 expand your horizons, and embark on a lifelong journey of discovery.</p>
                         </div>
-                        <div class="wrapper d-flex align-items-center gap-2">
+                        <div class="wrapper d-flex align-items-center gap-2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1200">
                             <a href="#team" class="button-default">Discover Team</a>
                             <a href="#adventage" class="button-reverse d-flex align-items-center gap-2">
                                 Our Adventages
