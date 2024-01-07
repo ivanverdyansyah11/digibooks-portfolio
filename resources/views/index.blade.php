@@ -17,7 +17,7 @@
 
 <body id="home">
     {{-- NAVBAR --}}
-    <nav class="navbar navbar-expand-lg py-3 navbar-dark position-relative">
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark position-relative" data-aos="fade-down" data-aos-duration="1000">
         <div class="container d-flex justify-content-between">
             <div class="collapse navbar-collapse order-lg-1 order-3" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
