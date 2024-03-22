@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>DigiBooks | MainPage Digital Book Platform</title>
 
     {{-- STYLE CSS --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -16,40 +16,8 @@
 </head>
 
 <body id="home">
-    {{-- NAVBAR --}}
-    <nav class="navbar navbar-expand-lg py-3 navbar-dark position-relative" data-aos-once="true" data-aos="fade-down" data-aos-duration="1000">
-        <div class="container d-flex justify-content-between">
-            <div class="collapse navbar-collapse order-lg-1 order-3" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="#home">Home</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#about">About</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#collection">Collection</a>
-                </div>
-            </div>
-            <a class="navbar-brand order-lg-2 order-1" href="#home">
-                <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" alt="Logo Brand" width="123">
-            </a>
-            <button class="navbar-toggler order-2 order-lg-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="wrapper-width d-none d-lg-flex justify-content-end order-4">
-                <div class="wrapper d-flex gap-2">
-                    <button class="button-icon d-flex justify-content-center align-items-center">
-                        <div class="user-icon"></div>
-                    </button>
-                    <button class="button-icon d-flex justify-content-center align-items-center">
-                        <div class="cart-icon"></div>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </nav>
-    {{-- END NAVBAR --}}
-
+    @include('components.navbar')
     <main>
-
         {{-- HERO SECTION --}}
         <section class="hero d-flex align-items-center py-4 py-lg-0 position-relative" id="hero">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block pe-lg-4 pe-xxl-5 pt-4">
@@ -59,15 +27,20 @@
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
                     <div class="col-lg-7 pe-lg-5">
-                        <h1 class="headline" style="margin-bottom: 26px;" data-aos-once="true" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="1000">The Digital Library Experience Begins Here
+                        <h1 class="headline" style="margin-bottom: 26px;" data-aos-once="true" data-aos="fade-up"
+                            data-aos-duration="1600" data-aos-delay="1000">The Digital Library Experience Begins Here
                         </h1>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 42px;">
-                            <p class="paragraph" data-aos-once="true" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="2000">Welcome to our digital library, where the world of knowledge awaits
+                            <p class="paragraph" data-aos-once="true" data-aos="fade-up" data-aos-duration="1600"
+                                data-aos-delay="2000">Welcome to our digital library, where the world of knowledge
+                                awaits
                                 you. Explore a vast collection of digital books, immerse yourself in captivating
                                 stories, and embark on a journey of learning and discovery. Step into a realm where
                                 books come to life. Our digital library offers a seamless reading experience with a
                                 diverse range of genres and subjects.</p>
-                            <p class="paragraph d-none d-md-inline-block" data-aos-once="true" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="2200">Discover a new way of accessing books with our
+                            <p class="paragraph d-none d-md-inline-block" data-aos-once="true" data-aos="fade-up"
+                                data-aos-duration="1600" data-aos-delay="2200">Discover a new way of accessing books
+                                with our
                                 digital library. Enjoy the convenience of instant access to an extensive collection of
                                 titles, from classic literature to contemporary bestsellers. Expand your mind and
                                 broaden your horizons.</p>
@@ -101,15 +74,18 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-3 mb-lg-0">
-                        <h3 class="title" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">Handpicked Recommendations Just for You</h3>
+                        <h3 class="title" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">
+                            Handpicked Recommendations Just for You</h3>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">Explore our handpicked featured collection, showcasing the best books
+                        <p class="paragraph" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">Explore
+                            our handpicked featured collection, showcasing the best books
                             across various genres. From captivating novels to insightful non-fiction</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos-once="true" data-aos="fade-left"
+                        data-aos-duration="1600">
                         <div class="card-default">
                             <div class="card-image d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/featured/featured-1.svg') }}" class="img-fluid"
@@ -120,7 +96,8 @@
                                 thought-provoking book by renowned author John Smith.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="600">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos-once="true" data-aos="fade-left"
+                        data-aos-duration="1600" data-aos-delay="600">
                         <div class="card-default">
                             <div class="card-image d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/featured/featured-2.svg') }}" class="img-fluid"
@@ -132,7 +109,8 @@
                                 actress Emma Thompson as she narrates.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="1200">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0" data-aos-once="true" data-aos="fade-left"
+                        data-aos-duration="1600" data-aos-delay="1200">
                         <div class="card-default">
                             <div class="card-image d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/featured/featured-3.svg') }}" class="img-fluid"
@@ -143,7 +121,8 @@
                                 Pages.' This engaging eBook uncovers the hidden meanings.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="1800">
+                    <div class="col-md-6 col-lg-3" data-aos-once="true" data-aos="fade-left"
+                        data-aos-duration="1600" data-aos-delay="1800">
                         <div class="card-default">
                             <div class="card-image d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/featured/featured-4.svg') }}" class="img-fluid"
@@ -168,19 +147,24 @@
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
                     <div class="offset-lg-6 offset-xxl-5 col-lg-6 col-xxl-7 ps-xxl-4">
-                        <h3 class="title" style="margin-bottom: 26px;" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">Transforming the Way You Access Information
+                        <h3 class="title" style="margin-bottom: 26px;" data-aos-once="true" data-aos="fade-left"
+                            data-aos-duration="1600">Transforming the Way You Access Information
                         </h3>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 42px;">
-                            <p class="paragraph" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Welcome to our digital library, a dynamic platform dedicated to
+                            <p class="paragraph" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000"
+                                data-aos-delay="800">Welcome to our digital library, a dynamic platform dedicated to
                                 empowering individuals through the power of digital reading. With a vast collection of
                                 e-books, audiobooks, and interactive resources, we strive to connect readers with
                                 knowledge, ideas, and endless learning opportunities.</p>
-                            <p class="paragraph d-lg-none d-xl-inline-block" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">At our digital library, we believe that
+                            <p class="paragraph d-lg-none d-xl-inline-block" data-aos-once="true"
+                                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">At our digital
+                                library, we believe that
                                 access to information should know no bounds. Our mission is to provide a convenient,
                                 inclusive, and enriching digital reading experience. Discover a treasure trove of books,
                                 expand your horizons, and embark on a lifelong journey of discovery.</p>
                         </div>
-                        <div class="wrapper d-flex align-items-center gap-2" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1200">
+                        <div class="wrapper d-flex align-items-center gap-2" data-aos-once="true"
+                            data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1200">
                             <a href="#team" class="button-default">Discover Team</a>
                             <a href="#adventage" class="button-reverse d-flex align-items-center gap-2">
                                 Our Adventages
@@ -198,17 +182,20 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-3 mb-lg-0">
-                        <h3 class="title" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">Endless Possibilities, Boundless Books</h3>
+                        <h3 class="title" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">
+                            Endless Possibilities, Boundless Books</h3>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">Welcome to our extensive digital collection of books. Immerse yourself in
+                        <p class="paragraph" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">
+                            Welcome to our extensive digital collection of books. Immerse yourself in
                             a world of captivating narratives, engaging non-fiction, and thought-provoking literature.
                         </p>
                     </div>
                 </div>
                 <div class="row row-gap">
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true"
+                            data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-1.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -228,7 +215,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true"
+                            data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-2.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -247,7 +235,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true"
+                            data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-3.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -266,7 +255,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true"
+                            data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-4.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -286,7 +276,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4 mb-lg-0">
-                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true"
+                            data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-5.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -305,7 +296,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default d-flex align-items-center gap-4" data-aos-once="true"
+                            data-aos="zoom-in" data-aos-duration="500">
                             <img src="{{ asset('assets/img/collection/collection-6.svg') }}"
                                 class="d-none d-md-inline-block img-collection img-fluid" alt="Collection Image">
                             <div class="wrapper">
@@ -326,7 +318,8 @@
                 </div>
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
-                        <a href="#" class="button-reverse" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">View More</a>
+                        <a href="#" class="button-reverse" data-aos-once="true" data-aos="zoom-in"
+                            data-aos-duration="500">View More</a>
                     </div>
                 </div>
             </div>
@@ -343,15 +336,18 @@
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
                     <div class="col-lg-6 col-xxl-7 pe-xxl-4">
-                        <h3 class="title" style="margin-bottom: 26px;" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">Unlock the Advantages of Digital Reading
+                        <h3 class="title" style="margin-bottom: 26px;" data-aos-once="true" data-aos="fade-right"
+                            data-aos-duration="1600">Unlock the Advantages of Digital Reading
                         </h3>
-                        <p class="paragraph" style="margin-bottom: 42px;" data-aos-once="true" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Our digital library offers a host of
+                        <p class="paragraph" style="margin-bottom: 42px;" data-aos-once="true" data-aos="fade-right"
+                            data-aos-duration="1000" data-aos-delay="800">Our digital library offers a host of
                             advantages that enhance your
                             reading experience. Access a vast collection of books anytime, anywhere, and enjoy
                             features like adjustable font sizes, personalized bookmarks, and interactive
                             annotations.</p>
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4" data-aos-once="true"
+                                data-aos="fade-left" data-aos-duration="1000">
                                 <div class="wrapper-icon">
                                     <div class="checklist-icon"></div>
                                 </div>
@@ -361,7 +357,9 @@
                                         collection of digital books, spanning various genres</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 d-lg-none d-xl-flex" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 d-lg-none d-xl-flex"
+                                data-aos-once="true" data-aos="fade-left" data-aos-duration="1000"
+                                data-aos-delay="300">
                                 <div class="wrapper-icon">
                                     <div class="checklist-icon"></div>
                                 </div>
@@ -371,8 +369,8 @@
                                         with our digital library</p>
                                 </div>
                             </div>
-                            <div
-                                class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 mb-md-0 d-lg-none d-xxl-flex" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 mb-4 mb-md-0 d-lg-none d-xxl-flex"
+                                data-aos-once="true" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="wrapper-icon">
                                     <div class="checklist-icon"></div>
                                 </div>
@@ -382,7 +380,9 @@
                                         experience in our digital library</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 d-lg-none d-xxl-flex" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <div class="col-12 col-md-6 col-lg-12 col-xxl-6 d-flex gap-3 d-lg-none d-xxl-flex"
+                                data-aos-once="true" data-aos="fade-left" data-aos-duration="1000"
+                                data-aos-delay="300">
                                 <div class="wrapper-icon">
                                     <div class="checklist-icon"></div>
                                 </div>
@@ -404,10 +404,12 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-3 mb-lg-0">
-                        <h3 class="title" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">Meet Our Team of Digital Book Enthusiasts</h3>
+                        <h3 class="title" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">Meet
+                            Our Team of Digital Book Enthusiasts</h3>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">Our team is composed of digital book enthusiasts who are passionate about
+                        <p class="paragraph" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">Our
+                            team is composed of digital book enthusiasts who are passionate about
                             literature and technology. We are dedicated to creating an exceptional digital reading
                             experience for you.
                         </p>
@@ -500,14 +502,17 @@
             <div class="container position-relative">
                 <div class="row align-items-center pe-xl-4">
                     <div class="offset-lg-6 offset-xxl-5 col-lg-6 col-xxl-7 ps-xxl-4">
-                        <h3 class="title" style="margin-bottom: 26px;" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">Hear What Our Readers Have to Say
+                        <h3 class="title" style="margin-bottom: 26px;" data-aos-once="true" data-aos="fade-left"
+                            data-aos-duration="1600">Hear What Our Readers Have to Say
                         </h3>
-                        <p class="paragraph" style="margin-bottom: 42px;" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Don't just take our word for it. Read what
+                        <p class="paragraph" style="margin-bottom: 42px;" data-aos-once="true" data-aos="fade-left"
+                            data-aos-duration="1000" data-aos-delay="800">Don't just take our word for it. Read what
                             our readers have to say
                             about their experience with our digital library. From the convenience of accessing their
                             favorite books to the joy of discovering new authors, our testimonials highlight the
                             positive impact our digital library has made on the reading lives of our users.</p>
-                        <div class="wrapper position-relative" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="wrapper position-relative" data-aos-once="true" data-aos="fade-left"
+                            data-aos-duration="1000">
                             <div class="swiper mySwiper position-relative">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
@@ -578,7 +583,8 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-3 mb-lg-0">
-                        <h3 class="title" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">Unlock Knowledge in Our Digital Library Blog</h3>
+                        <h3 class="title" data-aos-once="true" data-aos="fade-right" data-aos-duration="1600">
+                            Unlock Knowledge in Our Digital Library Blog</h3>
                     </div>
                     <div class="col-lg-5" data-aos-once="true" data-aos="fade-left" data-aos-duration="1600">
                         <p class="paragraph">Delve into the literary universe with our digital library blog. Discover a
@@ -600,7 +606,8 @@
                             <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
                         </div>
 
-                        <div class="card-default mt-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default mt-4" data-aos-once="true" data-aos="zoom-in"
+                            data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-4.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Literary Inspiration, How Books Influence Art, Music, and
@@ -623,7 +630,8 @@
                             <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
                         </div>
 
-                        <div class="card-default mt-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default mt-4" data-aos-once="true" data-aos="zoom-in"
+                            data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-5.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Engaging Discussions and Reading Recommendations</h6>
@@ -644,7 +652,8 @@
                             <a href="#" class="button-default text-center" style="width: 100%;">Buy Now</a>
                         </div>
 
-                        <div class="card-default mt-4" data-aos-once="true" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card-default mt-4" data-aos-once="true" data-aos="zoom-in"
+                            data-aos-duration="500">
                             <img src="{{ asset('assets/img/blog/blog-6.svg') }}" class="img-fluid w-100 img-blog"
                                 alt="Blog Image">
                             <h6 style="margin: 18px 0 6px;">Books that Inspire, Empower, and Transform</h6>
@@ -681,90 +690,14 @@
             </div>
         </section>
         {{-- END CTA --}}
-
-        {{-- FOOTER --}}
-        <footer class="footer" id="footer">
-            <div class="container">
-                <div class="row" style="margin-bottom: 100px">
-                    <div class="col-6 col-md-3 mb-5 mb-md-0">
-                        <a class="footer-brand d-inline-block" href="#home" style="margin-bottom: 18px;">
-                            <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" class="img-fluid w-100"
-                                alt="Logo Brand">
-                        </a>
-                        <p class="paragraph-small" style="margin-bottom: 30px;">Welcome to Chroma, the ultimate
-                            destination for digital art enthusiasts and creators.</p>
-                        <div class="wrapper-sosmed d-flex gap-2">
-                            <a href="https://id-id.facebook.com/" target="_blank"
-                                class="sosmed-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
-                                    alt="Facebook Icon" width="16">
-                            </a>
-                            <a href="https://www.whatsapp.com/" target="_blank"
-                                class="sosmed-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
-                                    alt="Whatsapp Icon" width="16">
-                            </a>
-                            <a href="https://twitter.com/?lang=id" target="_blank"
-                                class="sosmed-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
-                                    alt="Twitter Icon" width="16">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="offset-lg-2 offset-xl-1 col-6 col-md-3 col-lg-2 mb-5 mb-md-0">
-                        <h6 style="margin-bottom: 20px">Quick Links</h6>
-                        <div class="wrapper d-flex flex-column gap-3">
-                            <a href="#home" class="paragraph-small">Home</a>
-                            <a href="#about" class="paragraph-small">About Us</a>
-                            <a href="#collection" class="paragraph-small">Collection Book</a>
-                            <a href="#team" class="paragraph-small">Our Team</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 d-none d-xl-inline-block">
-                        <h6 style="margin-bottom: 20px">Our Featured</h6>
-                        <div class="wrapper d-flex flex-column gap-3">
-                            <a href="#featured" class="paragraph-small">The Digital Revolution</a>
-                            <a href="#featured" class="paragraph-small">The Power of Imagination</a>
-                            <a href="#featured" class="paragraph-small">Literature's Hidden Meanings</a>
-                            <a href="#featured" class="paragraph-small">The Adventures of Digibot</a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3 col-xl-2">
-                        <h6 style="margin-bottom: 20px">Our Adventage</h6>
-                        <div class="wrapper d-flex flex-column gap-3">
-                            <a href="#adventage" class="paragraph-small">Unlimited Access</a>
-                            <a href="#adventage" class="paragraph-small">Anytime, Anywhere Reading</a>
-                            <a href="#adventage" class="paragraph-small">Interactive and Engaging</a>
-                            <a href="#adventage" class="paragraph-small">Discoverability</a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3 col-lg-2">
-                        <h6 style="margin-bottom: 20px">Help & guide</h6>
-                        <div class="wrapper d-flex flex-column gap-3">
-                            <a href="#" class="paragraph-small">Terms & Conditions</a>
-                            <a href="#" class="paragraph-small">Privacy Policy</a>
-                            <a href="#" class="paragraph-small">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 copyright text-center">
-                        <p>Copyright © 2023 Digibooks. All Right Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        {{-- END FOOTER --}}
     </main>
+    @include('components.footer')
 
 
     {{-- SCRIPT JS --}}
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/js/script.js') }}"></script>
 
     <script>
         AOS.init();
